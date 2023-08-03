@@ -1,0 +1,17 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.topBlock {
+    color: 000080;
+    min-height: 25vh;
+}
+
+.header {
+    padding: 15px;
+    display: flex;
+}
