@@ -1,17 +1,85 @@
+html, body {
+    height: 100%;
+  }
+
 body {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
 
 }
 
-
 .topBlock {
-    color: 000080;
-    min-height: 25vh;
+    background-color: #1F2937;
+    height: 400px;
+    margin: 0;
+
 }
 
 .header {
     padding: 15px;
     display: flex;
+    justify-content: space-between;
+    
+}
+
+.mainText {
+    
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.description, .link {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.headerLogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+
+
+.links {
+    display: flex;
+    gap: 12px;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: space-around ;
+    width: 650px;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainContentLeft {
+    width: 300px;
+
+}
+
+.mainContentRight {
+    display: flex;
+    align-items: center;
+}
+
+
+.infoBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+}
+
+.randomInfo {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+    padding: 15px;
 }
