@@ -82,4 +82,20 @@ body {
     font-weight: 1000;
     color: #1F2937;
     padding: 15px;
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.blueButton {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+
 }
